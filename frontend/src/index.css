@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+  --primary-color: #F5D005;
+  /* Pikachu Yellow */
+  --secondary-color: #EE1515;
+  /* Pokeball Red */
+  --dark-color: #1A1A1A;
+  /* Black */
+  --light-color: #FFFFFF;
+  --bg-color: #FFFDE7;
+  --card-bg: #FFFFFF;
+  --shadow: 4px 4px 0px #1A1A1A;
+  /* Retro hard shadow */
+  --radius: 12px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--dark-color);
+  background-image:
+    radial-gradient(var(--primary-color) 2px, transparent 2px);
+  background-size: 30px 30px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Fredoka One', cursive;
+  /* Playful font */
+  color: var(--dark-color);
+  letter-spacing: 1px;
+}
